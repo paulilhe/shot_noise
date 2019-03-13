@@ -16,4 +16,11 @@ pip install . --user
 
 ## Deployment
 
-After installation, you can run the provided example scripts:
+After installation, you can run the provided example program:
+
+```
+cd examples
+python ./simulation_example.py 
+Slicing a ShotNoise
+Done!
+```
