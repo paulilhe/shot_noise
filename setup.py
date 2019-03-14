@@ -8,6 +8,6 @@ setup(name='shot_noise',
       license='MIT',
       packages=['shot_noise'],
       ext_modules=[Extension(name='design_operation', sources=['shot_noise/matrix_operations.f90'], language='f90')],
-      install_requires=['pp', 'patsy', 'scipy', 'cvxopt'],
+      install_requires=['numpy', 'pp', 'patsy', 'scipy', 'cvxopt'],
       zip_safe=False)
 
